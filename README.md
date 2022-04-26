@@ -14,7 +14,7 @@ and many others
 
 ## Lecture and Lab Notes
 
-### R Basic
+### Python Basic
 
 [R Basic](lecture/1_R_Basic.html)
 

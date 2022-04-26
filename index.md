@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/jonathanatuscpsu/DM-python/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Data Mining in Python
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This set of learning materials for undergraduate and graduate data mining class are based on Dr. Yan Yu’s class notes. Thanks for the contribution from previous Ph.D. students in Lindner College of Business. Thanks to Xiaorui Zhu for setting up the initial github page. And thanks to Dr. Brittany Green for recording the lab videos.
 
-### Markdown
+Contributors:  
+Zhaohu(Jonathan) Fan, PhD Candidate, psujohnny@gmail.com
+Xiaorui Zhu, PhD Candidate, zhuxiaorui1989@gmail.com
+Dr. Feng Mai, Assistant Professor of Information Systems in the School of Business at Stevens Institute of Technology
+Dr. Shaonan Tian, Associate Professor at San José State University 
+Dr. Chaojiang Wu, Assistant Professor at Kent State University
+Dr. Shaobo Li, Assistant Professor of Business Analytics at University of Kansas School of Business
+and many others
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Lecture and Lab Notes
 
-```markdown
-Syntax highlighted code block
+### Python Basic
 
-# Header 1
-## Header 2
-### Header 3
+[Python Basic](lecture/1_R_Basic.html)
 
-- Bulleted
-- List
+### Explore and describe dataset
 
-1. Numbered
-2. List
+[Explore and describe dataset](lecture/2_ExploratoryAnalyses.html)
 
-**Bold** and _Italic_ and `Code` text
+### Linear Regression, Prediction and Variables Seleciton
 
-[Link](url) and ![Image](src)
-```
+[Linear Regression](lecture/3_LinearReg.html)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Logistic Regression
 
-### Jekyll Themes
+[Logistic Regression](lecture/4_LogisticReg.html)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jonathanatuscpsu/DM-python/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Tree Models
 
-### Support or Contact
+[Regression tree and classification tree](lecture/5_Tree.html)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### GAM, Neural Network, LDA and SVM
+
+[GAM, Neural Network, LDA and SVM](lecture/6_SupervisedLearning.html)
+
+### Unsupervised Learning
+
+[Unsupervised Learning](lecture/7_UnsupervisedLearning.html)
+
+### Advanced Tree 
+
+[Advanced Tree Models -- Bagging, Random Forests, and Boosting](lecture/AdvTree.html)
+
+### Other Topics 2: Advanced Variable Selection
+
+[Advanced Variable Selection Techniques](lecture/VS.html)

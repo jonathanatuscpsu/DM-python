@@ -4,25 +4,28 @@
 This set of learning materials for undergraduate and graduate data mining class are based on Dr. Yan Yu’s class notes. Thanks for the contribution from previous Ph.D. students in Lindner College of Business. Thanks to Xiaorui Zhu for setting up the initial github page. And thanks to Dr. Brittany Green for recording the lab videos.
 
 Contributors:  
-Zhaohu(Jonathan) Fan, PhD Candidate, psujohnny@gmail.com
-Xiaorui Zhu, PhD Candidate, zhuxiaorui1989@gmail.com
-Dr. Feng Mai, Assistant Professor of Information Systems in the School of Business at Stevens Institute of Technology
-Dr. Shaonan Tian, Associate Professor at San José State University 
-Dr. Chaojiang Wu, Assistant Professor at Kent State University
-Dr. Shaobo Li, Assistant Professor of Business Analytics at University of Kansas School of Business
+- Zhaohu(Jonathan) Fan, PhD Candidate, psujohnny@gmail.com
+- Xiaorui Zhu, PhD Candidate, zhuxiaorui1989@gmail.com
+- Dr. Feng Mai, Assistant Professor of Information Systems in the School of Business at Stevens Institute of Technology
+- Dr. Shaonan Tian, Associate Professor at San José State University 
+- Dr. Chaojiang Wu, Assistant Professor at Kent State University
+- Dr. Shaobo Li, Assistant Professor of Business Analytics at University of Kansas School of Business
 and many others
 
 ## Lecture and Lab Notes
 
-### Python Basic
+### Introduction to Data Mining and Python
 
-[Python Basic](1_A_Introduction_to_Data_Mining.html)
+[1.A Introduction to Data Mining](1_A_Introduction_to_Data_Mining.html)
 
-[Python Basic](1_A_Introduction_to_Data_Mining.html)
+[1.B Introduction to Python](1_B_Introduction_to_Python.html)
 
-[Python Basic](1_A_Introduction_to_Data_Mining.html)
+[1.C Advanced techniques: function and loop] (1_C_Advanced_techniques_function_and_loop.html)
 
-### Explore and describe dataset
+[1.D Introduction to RMarkdown (optional)]  (1_D_Introduction_to_Markdown.html)
+ 
+
+### Exploratory Data Analysis
 
 [Explore and describe dataset](lecture/2_ExploratoryAnalyses.html)
 

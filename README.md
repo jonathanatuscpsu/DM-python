@@ -16,7 +16,7 @@ and many others
 
 ### Python Basic
 
-[R Basic](lecture/1_R_Basic.html)
+[Python Basic](lecture/1_R_Basic.html)
 
 ### Explore and describe dataset
 

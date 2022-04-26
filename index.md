@@ -34,7 +34,13 @@ and many others
 
 ### Linear Regression, Prediction and Variables Seleciton
 
-[Linear Regression](lecture/3_LinearReg.html)
+[3.A Linear regression and prediction](lecture/3_LinearReg.html)
+
+[3.B Subset variable selection](lecture/3_LinearReg.html)
+
+[3.C LASSO variable selection](lecture/3_LinearReg.html)
+
+[3.D Monte Carlo simulation](lecture/3_LinearReg.html)
 
 ### Logistic Regression
 

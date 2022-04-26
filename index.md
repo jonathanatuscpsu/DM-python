@@ -16,11 +16,11 @@ and many others
 
 ### Python Basic
 
-[Python Basic](lecture/1_A_Introduction_to_Data_Mining.html)
+[Python Basic](1_A_Introduction_to_Data_Mining.html)
 
-[Python Basic](lecture/1_A_Introduction_to_Data_Mining.html)
+[Python Basic](1_A_Introduction_to_Data_Mining.html)
 
-[Python Basic](lecture/1_A_Introduction_to_Data_Mining.html)
+[Python Basic](1_A_Introduction_to_Data_Mining.html)
 
 ### Explore and describe dataset
 

@@ -34,11 +34,11 @@ and many others
 
 ### Linear Regression, Prediction and Variables Seleciton
 
-[3.A Linear regression and prediction](lecture/3_LinearReg.html)
+[3.A Linear regression and prediction](3_LinearReg.html)
 
-[3.B Subset variable selection](lecture/3_LinearReg.html)
+[3.B Subset variable selection](3_LinearReg.html)
 
-[3.C LASSO variable selection](lecture/3_LinearReg.html)
+[3.C LASSO variable selection](3_LinearReg.html)
 
 [3.D Monte Carlo simulation](3_D_Simulation.html)
 

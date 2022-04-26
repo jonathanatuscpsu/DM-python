@@ -40,7 +40,7 @@ and many others
 
 [3.C LASSO variable selection](lecture/3_LinearReg.html)
 
-[3.D Monte Carlo simulation](lecture/3_LinearReg.html)
+[3.D Monte Carlo simulation](3_D_Simulation.html)
 
 ### Logistic Regression
 

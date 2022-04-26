@@ -18,6 +18,10 @@ and many others
 
 [Python Basic](lecture/1_A_Introduction_to_Data_Mining)
 
+[Python Basic](lecture/1_A_Introduction_to_Data_Mining)
+
+[Python Basic](lecture/1_A_Introduction_to_Data_Mining)
+
 ### Explore and describe dataset
 
 [Explore and describe dataset](lecture/2_ExploratoryAnalyses.html)

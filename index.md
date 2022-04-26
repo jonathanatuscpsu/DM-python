@@ -1,7 +1,7 @@
 
 # Data Mining in Python
 
-This set of learning materials for undergraduate and graduate data mining class are based on Dr. Yan Yu’s class notes. Thanks for the contribution from previous Ph.D. students in Lindner College of Business. Thanks to Xiaorui Zhu for setting up the initial github page. And thanks to Dr. Brittany Green for recording the lab videos.
+This set of learning materials for undergraduate and graduate data mining class are based on Dr. Yan Yu’s class notes. Thanks for the contribution from previous Ph.D. students in Lindner College of Business. Thanks to Xiaorui Zhu for setting up the initial github page. And thanks to Dr. Brittany Green for recording the lab videos.--00
 
 Contributors:  
 Zhaohu(Jonathan) Fan, PhD Candidate, psujohnny@gmail.com

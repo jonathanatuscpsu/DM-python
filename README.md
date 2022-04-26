@@ -1,9 +1,10 @@
-@@ -0,0 +1,50 @@
-# Data Mining in R
+
+# Data Mining in Python
 
 This set of learning materials for undergraduate and graduate data mining class are based on Dr. Yan Yu’s class notes. Thanks for the contribution from previous Ph.D. students in Lindner College of Business. Thanks to Xiaorui Zhu for setting up the initial github page. And thanks to Dr. Brittany Green for recording the lab videos.
 
 Contributors:  
+Zhaohu(Jonathan) Fan, PhD Candidate, psujohnny@gmail.com
 Xiaorui Zhu, PhD Candidate, zhuxiaorui1989@gmail.com
 Dr. Feng Mai, Assistant Professor of Information Systems in the School of Business at Stevens Institute of Technology
 Dr. Shaonan Tian, Associate Professor at San José State University 

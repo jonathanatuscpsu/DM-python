@@ -1,0 +1,334 @@
+---
+title: "Exploratory Analysis in R"
+output: 
+  html_document: 
+    theme: readable
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
+    code_folding: show
+    df_print: paged
+  html_notebook: 
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r set-options, echo=FALSE, cache=FALSE}
+options(width = 200)
+```
+
+Exploratory Data Analysis (EDA) is usually the first step when you analyze data, because you want to know what information the dataset carries. In this lab, we introudce basic R functions for EDA in both quantitative and graphical approaches. In the end, we will also learn some useful functions for data manipulation, which is often necessary in data analysis.
+
+# Exploratory Data Analysis
+
+## Basic summary Statistics
+
+Before start, always do 
+
+* set the working directory!
+* create a new R script (unless you are continuing last project)
+* Save the R script.
+
+Let's first load the **Iris** dataset. This is a very famous dataset in almost all data mining, machine learning courses, and it has been an R build-in dataset. The dataset consists of 50 samples from each of three species of Iris flowers (Iris setosa, Iris virginicaand Iris versicolor). Four features(variables) were measured from each sample, they are the **length** and the **width** of sepal and petal, in centimeters. It is introduced by Sir Ronald Fisher in 1936.
+
+- 3 Species
+
+![](pic/flower.png)
+
+- Four features of flower: **length** and the **width** of sepal and petal
+
+![](pic/parts.png)
+
+[go to top](#header)
+
+## Explore the *iris* Dataset with R
+
+### Load Data
+The *iris* flower data set is included in R. It is a data frame with 150 cases (rows) and 5 variables (columns) named Sepal.Length, Sepal.Width, Petal.Length, Petal.Width, and Species.
+
+First, load iris data to the current workspace
+ 
+```{r}
+data(iris)
+iris
+```
+
+### What is in the dataset?
+You can use `head()` or `tail()` to print the first or last few rows of a dataset:
+```{r}
+head(iris)
+```
+
+Check dimensionality, the dataset has 150 rows(observations) and 5 columns (variables)
+```{r dim}
+dim(iris)
+```
+
+Another way to get the dim is to use ncol or nrow:
+```{r}
+ncol(iris)
+nrow(iris)
+```
+
+
+Variable names or column names
+```{r varname}
+names(iris)
+```
+
+You can also use this command
+```{r, eval=FALSE}
+colnames(iris)
+```
+
+Structure of the dataframe, note that the difference between *num* and *Factor*
+```{r struc}
+str(iris)
+```
+
+By default, R treat strings as factors (or categorical variables), in many situations  (for example, building a regression model) this is what you want because R can automatically create "dummy variables" from the factors. However when merging data from different sources this can cause errors. In this case you can use `stringsAsFactors = FALSE` option in `read.table`.
+
+```{r}
+class(iris[,1])
+class(iris[,5])
+```
+
+
+### Simple summary statistics
+
+Try the `summary()` function.
+```{r}
+summary(iris)
+```
+
+It only produces the location statistics for continues variable, and count for categorical variable. How about standard deviation, another important summary statistic?
+
+```{r}
+sd(iris$Sepal.Length)
+quantile(iris$Sepal.Length)
+```
+
+Using `apply()` to calculate a particular statistic for multiple variables at the same time.
+
+```{r}
+apply(iris[,1:4], 2, sd)  # "2" means "by column"
+```
+
+
+## Summary by groups
+
+### Use `aggregate()` function to find summary statistics by group.
+```{r}
+# group mean
+aggregate(.~Species, iris, mean) 
+# group standard deviation
+aggregate(.~Species, iris, sd)
+```
+
+What if there are multiple "factor" variables?
+
+Let's first artificially create a new column that categorizes "Sepal.Length" by quantile.
+```{r}
+# use function cut for categorization based on quntiles
+Cate.SepalLength<- cut(iris$Sepal.Length, breaks=quantile(iris$Sepal.Length), include.lowes=T)
+# Add the created categorical variable to the data
+iris1<- iris
+iris1$Sepal.Length.Cate <- Cate.SepalLength
+```
+
+Average value of numerical varialbes by two categorical variables: Species and Sepal.Length.Cate:
+
+```{r}
+aggregate(.~Species+Sepal.Length.Cate, iris1, mean)
+```
+
+
+### Pivot table
+```{r}
+# One-way count table
+table(iris1$Species)
+# Two-way count table
+table(iris1$Species, iris1$Sepal.Length.Cate)
+```
+
+
+## **Exercise:** 
+
+> Download the customer data and read into R.
+
+```{r echo=TRUE, eval=FALSE}
+customer <- read.csv(file = "https://xiaoruizhu.github.io/Data-Mining-R/lecture/data/CustomerData.csv")
+```
+>
+> 1. How many rows and columns of the dataset?
+> 2. Print first few rows the dataset.
+> 3. Obtain the summary statistics (Min, Median, Max, Mean and Std.) for *Age*, *EducationYears*, *HHIncome*, and *CreditDebt*.
+> 4. Obtain the mean of *HHIncome* by *MaritalStatus*
+> 5. Obtain a pivot table of *LoanDefault* vs. *JobCategory*. Which Job Category has the highest and lowerst loan default rate?
+
+```{r echo=FALSE, eval=FALSE}
+customer<- read.csv("CustomerData.csv")
+dim(customer)
+head(customer)
+names(customer)
+summary(customer)
+aggregate(HHIncome~MaritalStatus, data = customer, mean)
+mypivot= table(customer$LoanDefault, customer$JobCategory)
+mypivot[2,]/table(customer$JobCategory)
+```
+
+```{r echo=FALSE, eval=FALSE}
+#################### Exercise ###########################
+
+## Download the customer data here, and read into R.
+customer <- read.csv(file = "https://xiaoruizhu.github.io/Data-Mining-R/lecture/data/CustomerData.csv")
+
+## How many rows and columns of the dataset?
+col<-ncol(customer)
+col
+row<-nrow(customer)
+row
+
+## Print first few rows the dataset.
+
+head(customer)
+tail(customer)
+
+## Obtain the summary statistics (Min, Median, Max, Mean and Std.) for Age, 
+## EducationYears, HHIncome, and CreditDebt.
+
+# Age
+summary(customer$Age)
+sd(customer$Age)
+
+# EducationYears
+summary(customer$EducationYears)
+sd(customer$EducationYears)
+
+# HHIncome
+
+summary(customer$HHIncome)
+sd(customer$HHIncome)
+
+# CreditDebt.
+
+summary(customer$CreditDebt)
+sd(customer$CreditDebt)
+
+## Obtain the mean of HHIncome by MaritalStatus
+
+aggregate(HHIncome~MaritalStatus, customer, mean)
+
+## Obtain a pivot table of LoanDefault vs. JobCategory.
+## Which Job Category has the highest and lowerst loan default rate? 
+
+table_loan<-table(customer$JobCategory,customer$LoanDefault)
+table_loan
+table_loan_pro<-prop.table(table(customer$JobCategory,customer$LoanDefault))
+table_loan_pro
+cbind(table_loan,table_loan_pro)
+```
+
+[go to top](#header)
+
+# Data Manipulation
+
+## Re-ordering columns and sorting rows
+Sorting by one or more variables is a common operation that you can do with datasets. With RStudio version 0.99+, you can sort a dataset when viewing it by clicking column header. 
+
+To do it with code, let's suppose that you would like to find the top 5 rows in `iris` dataset with largest `Sepal.Length`.
+
+```{r}
+iris[order(iris$Sepal.Length, decreasing = TRUE)[1:5], ] 
+```
+
+
+## Sorting
+
+Sorting by one or more variables is a common operation that you can do with datasets. With RStudio version 0.99+, you can sort a dataset when viewing it by clicking column header. 
+
+To do it with code, let's suppose that you would like to find the top 5 rows in `iris` dataset with largest `Sepal.Length`.
+
+```{r}
+iris[order(iris$Sepal.Length, decreasing = TRUE)[1:5], ] 
+```
+
+The syntax is cleaner with the `arrange()` function in the `dplyr` package:
+```{r, eval=FALSE}
+arrange(iris, desc(Sepal.Length))[1:5, ]
+```
+
+## Select columns
+
+If you want to select one or more variables of a data frame, there are two ways to do that. First is using indexing by "[]". Second is `select()` function in *dplyr*. For example, suppose we want to select variable "Sepal.Length":
+```{r eval=FALSE}
+iris[, "Sepal.Length"]
+```
+or alternatively select two variables: "Sepal.Length", "Sepal.Width"
+```{r eval=FALSE}
+iris[, c("Sepal.Length", "Sepal.Width")]
+```
+
+
+## Missing data
+
+### Detect missing values
+
+Recall the customer dataset we in previous exercise.
+```{r}
+customer <- read.csv("data/CustomerData.csv")
+```
+
+```{r}
+# How many missing values are in customer dataset?
+sum(is.na(customer))
+# How many missing values are in each variable?
+data.frame(num_missing=colSums(is.na(customer)))
+```
+
+### How to deal with missing values?
+
+* Simply delete those observations(rows) that contains missing value.
+* Impute missing values by certain statistics, predictions or random number from estimated distributions.
+
+```{r}
+# Simply delete rows with missings
+clean_customer<- na.omit(customer)
+nrow(clean_customer)
+# Impute missing values by median
+medHS<- median(customer$HouseholdSize, na.rm = T)
+customer$HouseholdSize[is.na(customer$HouseholdSize)==T]<- medHS
+```
+
+## **Exercise:** 
+
+> Download the customer data and read into R.
+
+```{r echo=TRUE, eval=FALSE}
+customer <- read.csv(file = "https://xiaoruizhu.github.io/Data-Mining-R/lecture/data/CustomerData.csv")
+```
+>
+> 1. How many rows and columns of the dataset?
+> 2. Print first few rows the dataset.
+> 3. Obtain the summary statistics (Min, Median, Max, Mean and Std.) for *Age*, *EducationYears*, *HHIncome*, and *CreditDebt*.
+> 4. Obtain the mean of *HHIncome* by *MaritalStatus*
+> 5. Obtain a pivot table of *LoanDefault* vs. *JobCategory*. Which Job Category has the highest and lowerst loan default rate?
+
+```{r echo=FALSE, eval=FALSE}
+customer<- read.csv("CustomerData.csv")
+dim(customer)
+head(customer)
+names(customer)
+summary(customer)
+aggregate(HHIncome~MaritalStatus, data = customer, mean)
+mypivot= table(customer$LoanDefault, customer$JobCategory)
+mypivot[2,]/table(customer$JobCategory)
+```
+
+[go to top](#header)

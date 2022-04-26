@@ -1,0 +1,159 @@
+---
+title: "Exploratory Data Analysis by Visualization"
+output: 
+  html_document: 
+    theme: readable
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
+    code_folding: show
+    df_print: paged
+  html_notebook: 
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r set-options, echo=FALSE, cache=FALSE}
+options(width = 200)
+```
+
+Let's first load the **Iris** dataset. This is a very famous dataset in almost all data mining, machine learning courses, and it has been an R build-in dataset. The dataset consists of 50 samples from each of three species of Iris flowers (Iris setosa, Iris virginicaand Iris versicolor). Four features(variables) were measured from each sample, they are the **length** and the **width** of sepal and petal, in centimeters. It is introduced by Sir Ronald Fisher in 1936.
+
+- 3 Species
+
+![](pic/flower.png)
+
+- Four features of flower: **length** and the **width** of sepal and petal
+
+![](pic/parts.png)
+
+[go to top](#header)
+
+# Exploratory Data Analysis by Visualization
+
+## Histogram
+Histogram is the easiest way to show how **numerical** variables are distributed.
+
+#### Produce a single histogram
+```{r fig.align='center'}
+data(iris)
+hist(iris$Sepal.Length, col="green", breaks=20)
+```
+
+You may change "breaks=" and "col=" to have different appearance.
+
+#### Density plot -- Fitted curve for histogram 
+
+Density plot is a nonparametric fitting.
+```{r fig.align='center'}
+plot(density(iris$Sepal.Length))
+```
+
+#### Combine the histogram and the density chart.
+
+You can make the plot more elegant with different options. For example, adding a title, adjusting the axis range, renaming the axis label, and so on...
+
+You can also add curves on top of an existing plot by using `lines()` or `abline()` function.
+```{r fig.align='center'}
+hist(iris$Sepal.Length, prob=T, col="green", breaks=20, main="Histogram and Density of Sepal Length", xlim=c(3,9), xlab="Sepal Length")
+lines(density(iris$Sepal.Length), col="red", lwd=2)
+
+# Add a vertical line that indicates the average of Sepal Length
+abline(v=mean(iris$Sepal.Length), col="blue", lty=2, lwd=1.5)
+```
+
+
+## Bar Chart
+
+Bar chart is produces by using a vector of single data points, which is often a vector of summary statistics. Therefore, you need to preprocess your data, and get summary statistics before drawing the bar chart.
+```{r fig.align='center'}
+# bar chart for average of the 4 quantitative variables
+aveg<- apply(iris[,1:4], 2, mean)
+barplot(aveg, ylab = "Average")
+```
+
+#### Use `?barplot` or Google search to produce following bar chart. 
+
+```{r, echo=FALSE,  fig.align='center'}
+data(iris)
+mean_by_group<- as.matrix(aggregate(.~Species, data=iris, mean)[,-1])
+rownames(mean_by_group)<- aggregate(.~Species, data=iris, mean)[,1]
+barplot(mean_by_group, col=c("darkblue","red", "green"), legend=rownames(mean_by_group), beside=TRUE, ylab = "Average", cex.names= 1)
+```
+
+## Pie Chart
+Pie chart is commonly used to visualize the proportion of different subject. It is similar to bar chart. You have to use a vector of single data points to produce a pie chart.
+```{r fig.align='center'}
+pie(table(iris$Species), col=rainbow(3))
+```
+
+## Box plot
+Box plot can only be drawn for continuous variable.
+```{r fig.align='center'}
+# box plot of Sepal.Length
+boxplot(iris$Sepal.Length)
+```
+
+#### Draw box plot of multiple variables into one figure
+```{r fig.align='center'}
+boxplot(iris[,1:4], notch=T, col=c("red", "blue", "yellow", "grey"))
+```
+
+#### Box plot by group
+```{r fig.align='center'}
+boxplot(iris[,1]~iris[,5], notch=T, ylab="Sepal Length", col="blue")
+```
+
+## Scatter Plot
+
+### Simple Scatter plot of two numerical variables
+```{r fig.align='center'}
+plot(iris$Sepal.Length, iris$Sepal.Width, xlab = "Length", ylab = "Width", main = "Sepal")
+```
+
+### Scatter plot matrix (all paired variables)
+```{r fig.align='center'}
+pairs(iris[,1:4])
+```
+
+## Parallel Coordinates
+```{r fig.align='center'}
+library(MASS)
+parcoord(iris[,1:4],col=iris$Species)
+```
+
+```{r echo=FALSE, eval=FALSE}
+nba <- read.csv("http://homepages.uc.edu/~lis6/Data/nba17.csv")
+nba_matrix<- as.matrix(nba[,-1])
+rownames(nba_matrix)<- nba[,1]
+nba_heatmap <- heatmap(nba_matrix[1:50,], scale="column")
+nba_heatmap <- heatmap(nba_matrix, Rowv=NA, Colv=NA, col = cm.colors(256), scale="column", margins=c(5,10))
+iris.mat<- as.matrix(iris[,-5])
+iris_heatmap <- heatmap(iris.mat, Rowv=NA, Colv=NA, scale="column")
+```
+
+## R Graphic Options
+
+You may display multiple plots in one window (one figure).
+```{r fig.height=10, fig.width=10, fig.align='center'}
+# set arrangement of multiple plots
+par(mfrow=c(2,2))
+# set mrgins
+par(mar=c(4.5, 4.2, 3, 1.5)) 
+hist(iris$Sepal.Length, xlab = "Sepal Length", cex.lab=1.5)
+hist(iris$Sepal.Width, xlab = "Sepal Width", col = "red")
+plot(iris$Sepal.Length, iris$Sepal.Width, xlab = "Length", ylab = "Width", main= "Sepal", pch=17)
+boxplot(iris[,1:4], notch=T, col=c("red", "blue", "yellow", "grey"))
+```
+
+There are much more options that can make your plot nice. You can learn options at [here](http://www.statmethods.net/advgraphs/parameters.html) or ask your best friend -- Google.
+
+Details about figure margins can be found [here](https://www.r-bloggers.com/setting-graph-margins-in-r-using-the-par-function-and-lots-of-cow-milk/).
+
+[go to top](#header)

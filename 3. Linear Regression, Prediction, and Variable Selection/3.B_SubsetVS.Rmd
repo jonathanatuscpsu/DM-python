@@ -1,0 +1,154 @@
+---
+title: "Subset Variable Selection"
+output: 
+  html_document: 
+    theme: readable
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
+  html_notebook: 
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+# Objective
+The objective of this case is to get you started with regression model building, variable selection, and model evaluation in R.
+
+We use Boston Housing Data as an illustrative example in this lab. We learn basic linear regression and analysis with R. Code in this file is not the only correct way to do things, however it is important for you to understand what each statement does. You will have to modify the code accordingly for your homework. 
+
+
+# Boston Housing Data
+Boston housing data is a built-in dataset in `MASS` package, so you do not need to download externally. Package `MASS` comes with R when you installed R, so no need to use `install.packages(MASS)` to download and install, but you do need to load this package.
+
+## Load Data
+```{r}
+library(MASS)
+data(Boston); #this data is in MASS package
+colnames(Boston) 
+```
+You can find details of the dataset from help document.
+```{r eval=FALSE}
+?Boston
+```
+The original data are 506 observations on 14 variables, medv being the response variable $y$:
+
+We skip the Exploratory Data Analysis (EDA) in this notes, but you should not omit it in your HW and Cases. EDA is very important and always the first analysis to do before any modeling.
+
+## Preparation 
+### Splitting data to training and testing samples 
+
+Next we sample 90% of the original data and use it as the training set. The remaining 10% is used as test set. The regression model will be built on the training set and future performance of your model will be evaluated with the test set.
+
+```{r}
+sample_index <- sample(nrow(Boston),nrow(Boston)*0.90)
+Boston_train <- Boston[sample_index,]
+Boston_test <- Boston[-sample_index,]
+```
+
+### (Optional) Standardization
+If we want our results to be invariant to the units and the parameter estimates $\beta_i$ to be comparible, we can standardize the variables. Essentially we are replacing the original values with their z-score.
+
+1st Way: create new variables manually.
+```{r, eval=FALSE}
+Boston$sd.crim <- (Boston$crim-mean(Boston$crim))/sd(Boston$crim); 
+```
+
+This does the same thing.
+```{r,eval=FALSE}
+Boston$sd.crim <- scale(Boston$crim); 
+```
+
+2nd way: If you have a lot of variables to standardize then the above is not very pleasing to do. You can use a loop like this. It standardizes every varables other than the last one which is $y$.
+
+```{r}
+for (i in 1:(ncol(Boston_train)-1)){
+  Boston_train[,i] <- scale(Boston_train[,i])
+}
+```
+
+The technique is not as important in linear regression because it will only affect the interpretation but not the model estimation and inference. 
+
+[go to top](#header)
+
+
+# Variable Selection
+
+## Compare Model Fit Manually
+```{r eval=FALSE}
+model_1 <- lm(medv~., data = Boston_train)
+model_2 <- lm(medv~crim+zn, data = Boston_train)
+summary(model_1)
+summary(model_2)
+AIC(model_1); BIC(model_1)
+AIC(model_2); BIC(model_2)
+```
+
+> **Exercise**: 
+> Compare MSE, $R^2$, and MSPE of these three models.
+
+## Best Subset Regression
+The 'leaps' package provides procedures for best subset regression.
+```{r eval=FALSE}
+install.packages('leaps')
+```
+```{r, warning=FALSE}
+library(leaps)
+```
+Which subset of variables should you include in order to minimize BIC?
+```{r}
+#regsubsets only takes data frame as input
+subset_result <- regsubsets(medv~.,data=Boston_train, nbest=2, nvmax = 14)
+summary(subset_result)
+plot(subset_result, scale="bic")
+```
+
+Each row represents a model. Black indicates that a variable is included in the model, while white indicates that it is not. 
+The argument `scale = ""` can be "Cp", "adjr2", "r2" or "bic".
+
+What is the problem with best subset regression? If there are n independent variables, the number of possible nonempty subsets is 2^n - 1. If you try a best subset regression with more than 50 variables, you might need to wait for your entire life to get the result.
+
+<!-- <img src="http://science.slc.edu/~jmarshall/courses/2002/spring/cs50/BigO/running-times.gif" height="300px" /> -->
+
+## Forward/Backward/Stepwise Regression Using AIC
+To perform the Forward/Backward/Stepwise Regression in R, we need to define the starting points:
+```{r}
+nullmodel=lm(medv~1, data=Boston_train)
+fullmodel=lm(medv~., data=Boston_train)
+```
+nullmodel is the model with no varaible in it, while fullmodel is the model with every variable in it.
+
+### Backward Elimination
+```{r}
+model_step_b <- step(fullmodel,direction='backward')
+```
+
+### Forward Selection
+```{r}
+model_step_f <- step(nullmodel, scope=list(lower=nullmodel, upper=fullmodel), direction='forward')
+```
+
+### Stepwise Selection (Output Omitted)
+```{r, eval=FALSE}
+model_step_s <- step(nullmodel, scope=list(lower=nullmodel, upper=fullmodel), direction='both')
+```
+
+One caution when comparing fit statistics using AIC, the definition varies by program/procedure.
+```{r}
+model_1 <- lm(medv~crim+zn+chas+nox+rm+dis+rad+tax+ptratio+black+lstat, data=Boston_train)
+extractAIC(model_1)
+AIC(model_1)
+```
+
+> Exercise 
+
+>   1. Comparing in-sample and out-of-sample performance between these reduced models. 
+
+>   2. Conduct 10-fold cross validation on the full sample and compare the CV scores.
+
+* For pros and cons of variable/model selection using the common fit statistics: (adjusted) $R^2$, MSE, AIC, BIC, etc. refer to Ch9 in "Applied Linear Regression Models" by Kutner et al.
+* For other variable selection methods refer to section 3.4 - 3.8 of ["Elements of Statistical Learning" (Free Online)](http://www-stat.stanford.edu/~tibs/ElemStatLearn/).
+
+[go to top](#header)

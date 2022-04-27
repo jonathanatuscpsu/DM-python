@@ -39,9 +39,10 @@ Contributors:
 
 
 ### Logistic Regression
+
 |              | Description                                                                                     | 
-|   :----:     |      :---                                                                                       |         
-| 4.A          |                   [Logistic regression and prediction](.html)                                   |   
+|   :----:     |      :---                                                                                       |          
+| 4.A          |         [Logistic regression and prediction](.html)                                             |   
 | 4.B          | [Logistic regression and variable selection](html)                                              |     
 | 4.C          | [ Logistic Regression for binary classification](html)                                          |    
 | 4.D          | [ Logistic regression and ROC](html)                                                            |     

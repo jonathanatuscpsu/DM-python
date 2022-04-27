@@ -45,11 +45,17 @@ Contributors:
 |   :----:     |      :---                                                                                       |         
 | 4.A          |                   [Logistic regression and prediction](.html) |   
 | 4.B          | [Logistic regression and variable selection](html)                                                               |     
-| 4.C          | [ Logistic Regression for binary classification](html)                                                                |    
+| 4.C          | [ Logistic Regression for binary classification](html)                                                    |    
 | 4.D          | [ Logistic regression and ROC](html)                                                   |     
 
 
-[Logistic Regression](lecture/4_LogisticReg.html)
+### Cross Validation
+
+|              | Description                                                                                     | 
+|   :----:     |      :---                                                                                       |         
+| 5.A          |                   [Cross validation](.html) |   
+| 5.B          | [ Cross validation (Logit model)](html)                                                               |     
+
 
 ### Tree Models
 

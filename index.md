@@ -42,7 +42,6 @@ and many others
 | 3.C          | [LASSO variable selection](html)                                                                |    
 | 3.D          | [Monte Carlo simulation](3_D_Simulation.html)                                                   |     
 
-
 ### Logistic Regression
 
 [Logistic Regression](lecture/4_LogisticReg.html)

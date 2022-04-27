@@ -36,11 +36,12 @@ and many others
 ### Linear Regression, Prediction and Variables Seleciton
 
 |              | Description                                                                                     | 
-|   :----:     |      :---                                                                                       |         
+|   :----:     |  :---                                                                                           |         
 | 3.A          | [Linear regression and prediction](3_A_Linear_regression_and_prediction.html)                   |   
 | 3.B          | [Subset variable selection](html)                                                               |     
 | 3.C          | [LASSO variable selection](html)                                                                |    
 | 3.D          | [Monte Carlo simulation](3_D_Simulation.html)                                                   |     
+
 
 ### Logistic Regression
 

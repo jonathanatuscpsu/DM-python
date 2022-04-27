@@ -41,18 +41,18 @@ Contributors:
 ### Logistic Regression
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 4.A          |                   [Logistic regression and prediction](.html) |   
-| 4.B          | [Logistic regression and variable selection](html)                                                               |     
-| 4.C          | [ Logistic Regression for binary classification](html)                                                    |    
-| 4.D          | [ Logistic regression and ROC](html)                                                   |     
+| 4.A          |                   [Logistic regression and prediction](.html)                                   |   
+| 4.B          | [Logistic regression and variable selection](html)                                              |     
+| 4.C          | [ Logistic Regression for binary classification](html)                                          |    
+| 4.D          | [ Logistic regression and ROC](html)                                                            |     
 
 
 ### Cross Validation
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 5.A          |                   [Cross validation](.html) |   
-| 5.B          | [ Cross validation (Logit model)](html)                                                               |     
+| 5.A          |                   [Cross validation](.html)                                                     |   
+| 5.B          | [ Cross validation (Logit model)](html)                                                         |     
 
 
 ### Tree Models
@@ -60,8 +60,8 @@ Contributors:
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 6.A          |                   [Regression Trees](.html) |   
-| 6.B          | [  Classification Trees](html)                                                               |     
+| 6.A          |                   [Regression Trees](.html)                                                     |   
+| 6.B          | [  Classification Trees](html)                                                                  |     
 
 
 ### Advanced Tree Models: Bagging, Random Forests, and Boosting Tree
@@ -69,26 +69,26 @@ Contributors:
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 7.A         |                   [Bagging trees](.html) |   
-| 7.B         | [Random forests](html)                                                               |     
-| 7.C      | [ Boosting trees](html)                                                    |    
+| 7.A         |                   [Bagging trees](.html)                                                         |   
+| 7.B         | [Random forests](html)                                                                           |     
+| 7.C      | [ Boosting trees](html)                                                                             |    
  
 
 ### Nonlinearity, Generalized Additive Models (GAM), and Nonparametric Smoothing
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 8.A         |                   [ Univariate Nonparametric Smoothing](.html) |   
-| 8.B         | [Generalized additive model (GAM)](html)                                                               |     
+| 8.A         |                   [ Univariate Nonparametric Smoothing](.html)                                   |   
+| 8.B         | [Generalized additive model (GAM)](html)                                                         |     
 
 
 ### Neural Network, LDA, and SVM
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 9.A         |                   [Neural network models](.html) |   
-| 9.B         |   Discriminant analysis (Optional)](html)                                                               |     
-| 9.C         |   Support vector machine (SVM) (Optional)](html)                                                               |     
+| 9.A         |                   [Neural network models](.html)                                                 |   
+| 9.B         |   Discriminant analysis (Optional)](html)                                                        |     
+| 9.C         |   Support vector machine (SVM) (Optional)](html)                                                 |     
 
 
 
@@ -97,17 +97,17 @@ Contributors:
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 10.A         |                   [Clustering](.html) |   
+| 10.A         |                   [Clustering](.html)                                                           |   
 
 ### Unsupervised Learning: Association Rules
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 11.A         |                   [Association Rules](.html) |   
+| 11.A         |                   [Association Rules](.html)                                                    |   
 
 ### Other Topics 1: Basic Text Mining
 
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 12.A         |                   [Basic Text Mining](.html) |   
+| 12.A         |                   [Basic Text Mining](.html)                                                    |   

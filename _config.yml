@@ -1,5 +1,6 @@
 theme: jekyll-theme-cayman
-
-description: "This research project develops training materials for reseachers wanting to learn to build project
-websites in GitHub with GitHub Pages."
+github:
+  is_project_page: false
+description: "By Zhaohu(Jonathan) Fan, Harsh Singal and Yan Yu."
+              "Life is short (You need Python). ---Bruce Eckel"
 email: "psujohnny@gmail.com"

@@ -1,7 +1,7 @@
 
 # Data Mining in Python
-
 This set of learning materials for undergraduate and graduate data mining class is currently maintained by Zhaohu(Jonathan) Fan.  Many materials are from [Dr. Yan Yu’s class notes](https://business.uc.edu/faculty-and-research/departments/obais/faculty/yan-yu.html). Thanks for the contribution from previous Ph.D. students in Lindner College of Business.
+
 
 Contributors:  
 - Zhaohu(Jonathan) Fan, PhD Candidate in Bubiness Analytics, psujohnny@gmail.com
@@ -39,8 +39,6 @@ Contributors:
 
 
 ### Logistic Regression
-
-
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
 | 4.A          |                   [Logistic regression and prediction](.html) |   
@@ -59,9 +57,23 @@ Contributors:
 
 ### Tree Models
 
-[Regression tree and classification tree](lecture/5_Tree.html)
 
-### GAM, Neural Network, LDA and SVM
+|              | Description                                                                                     | 
+|   :----:     |      :---                                                                                       |         
+| 6.A          |                   [Regression Trees](.html) |   
+| 6.B          | [  Classification Trees](html)                                                               |     
+
+
+### Advanced Tree Models: Bagging, Random Forests, and Boosting Tree
+
+
+|              | Description                                                                                     | 
+|   :----:     |      :---                                                                                       |         
+| 7.A         |                   [Bagging trees](.html) |   
+| 7.B         | [Random forests](html)                                                               |     
+| 7.C      | [ Boosting trees](html)                                                    |    
+ 
+
 
 [GAM, Neural Network, LDA and SVM](lecture/6_SupervisedLearning.html)
 

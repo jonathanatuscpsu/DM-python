@@ -30,7 +30,7 @@ and many others
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
 | 2.A      |  [Explore and describe dataset](2_A_Explore_and_describe_dataset.html)                              |   
-| 2.B     | [B Exploratory data analysis by visualization](2_B_Exploratory_Data_Analysis_by_Visualization.html)  |     
+| 2.B     |  [Exploratory data analysis by visualization](2_B_Exploratory_Data_Analysis_by_Visualization.html)  |     
 
                               
 ### Linear Regression, Prediction and Variables Seleciton

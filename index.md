@@ -4,6 +4,7 @@
 This set of learning materials for undergraduate and graduate data mining class are based on Dr. Yan Yu’s class notes. Thanks for the contribution from previous Ph.D. students in Lindner College of Business. Thanks to Xiaorui Zhu for setting up the initial github page. And thanks to Dr. Brittany Green for recording the lab videos.
 
 Contributors:  
+
 - Zhaohu(Jonathan) Fan, PhD Candidate, fanzh@ucmail.uc.edu
 - Xiaorui Zhu, PhD Candidate, zhuxiaorui1989@gmail.com
 - Dr. Feng Mai, Assistant Professor of Information Systems in the School of Business at Stevens Institute of Technology
@@ -24,7 +25,6 @@ and many others
 
 [1.D Introduction to RMarkdown (optional)](1_D_Introduction_to_Markdown.html)
 
- 
 
 ### Exploratory Data Analysis
 

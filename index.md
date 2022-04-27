@@ -66,3 +66,10 @@ and many others
 ### Other Topics 2: Advanced Variable Selection
 
 [Advanced Variable Selection Techniques](lecture/VS.html)
+
+
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |

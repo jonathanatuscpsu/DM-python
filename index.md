@@ -46,7 +46,6 @@ Contributors:
 | 4.C          | [ Logistic Regression for binary classification](html)                                          |    
 | 4.D          | [ Logistic regression and ROC](html)                                                            |     
 
-
 ### Cross Validation
 
 |              | Description                                                                                     | 

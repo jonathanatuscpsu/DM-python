@@ -15,14 +15,13 @@ and many others
 ## Lecture and Lab Notes
 
 ### Introduction to Data Mining and Python
+|[1.A Introduction to Data Mining](1_A_Introduction_to_Data_Mining.html) |
 
-[1.A Introduction to Data Mining](1_A_Introduction_to_Data_Mining.html)
+|[1.B Introduction to Python](1_B_Introduction_to_Python.html)|
 
-[1.B Introduction to Python](1_B_Introduction_to_Python.html)
+|[1.C Advanced techniques: function and loop](1_C_Advanced_techniques_function_and_loop.html)|
 
-[1.C Advanced techniques: function and loop](1_C_Advanced_techniques_function_and_loop.html)
-
-[1.D Introduction to RMarkdown (optional)](1_D_Introduction_to_Markdown.html)
+|[1.D Introduction to RMarkdown (optional)](1_D_Introduction_to_Markdown.html)|
  
 
 ### Exploratory Data Analysis

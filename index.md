@@ -74,18 +74,40 @@ Contributors:
 | 7.C      | [ Boosting trees](html)                                                    |    
  
 
+### Nonlinearity, Generalized Additive Models (GAM), and Nonparametric Smoothing
 
-[GAM, Neural Network, LDA and SVM](lecture/6_SupervisedLearning.html)
+|              | Description                                                                                     | 
+|   :----:     |      :---                                                                                       |         
+| 8.A         |                   [ Univariate Nonparametric Smoothing](.html) |   
+| 8.B         | [Generalized additive model (GAM)](html)                                                               |     
 
-### Unsupervised Learning
 
-[Unsupervised Learning](lecture/7_UnsupervisedLearning.html)
+### Neural Network, LDA, and SVM
 
-### Advanced Tree 
+|              | Description                                                                                     | 
+|   :----:     |      :---                                                                                       |         
+| 9.A         |                   [Neural network models](.html) |   
+| 9.B         |   Discriminant analysis (Optional)](html)                                                               |     
+| 9.c         |   Support vector machine (SVM) (Optional)](html)                                                               |     
 
-[Advanced Tree Models -- Bagging, Random Forests, and Boosting](lecture/AdvTree.html)
 
-### Other Topics 2: Advanced Variable Selection
 
-[Advanced Variable Selection Techniques](VS.html)
+### Unsupervised Learning: Clustering
 
+
+|              | Description                                                                                     | 
+|   :----:     |      :---                                                                                       |         
+| 10.A         |                   [Clustering](.html) |   
+
+### Unsupervised Learning: Association Rules
+
+|              | Description                                                                                     | 
+|   :----:     |      :---                                                                                       |         
+| 11.A         |                   [Association Rules](.html) |   
+
+### Other Topics 1: Basic Text Mining
+
+
+|              | Description                                                                                     | 
+|   :----:     |      :---                                                                                       |         
+| 12.A         |                   [Basic Text Mining](.html) |   

@@ -1,6 +1,5 @@
 theme: jekyll-theme-cayman
-github:
-  is_project_page: false
+
 description: "This research project develops training materials for reseachers wanting to learn to build project
 websites in GitHub with GitHub Pages."
 email: "psujohnny@gmail.com"

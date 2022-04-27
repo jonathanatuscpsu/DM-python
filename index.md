@@ -1,4 +1,3 @@
-![Book logo](/logo.png)
 
 
 # Data Mining in Python

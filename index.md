@@ -29,18 +29,18 @@ and many others
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 2.A      |  [Explore and describe dataset](2_A_Explore_and_describe_dataset.html)                              |   
-| 2.B     |  [Exploratory data analysis by visualization](2_B_Exploratory_Data_Analysis_by_Visualization.html)  |     
+| 2.A          | [Explore and describe dataset](2_A_Explore_and_describe_dataset.html)                           |   
+| 2.B          | [Exploratory data analysis by visualization](2_B_Exploratory_Data_Analysis_by_Visualization.html)|     
 
                               
 ### Linear Regression, Prediction and Variables Seleciton
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 3.A      |[Linear regression and prediction](3_A_Linear_regression_and_prediction.html)       |   
-| 3.B     | [Subset variable selection](html)       |     
-| 3.C     | [LASSO variable selection](html)       |   
-| 3.D     | [Monte Carlo simulation](3_D_Simulation.html)    |     
+| 3.A          | [Linear regression and prediction](3_A_Linear_regression_and_prediction.html)                   |   
+| 3.B          | [Subset variable selection](html)                                                               |     
+| 3.C          | [LASSO variable selection](html)                                                                |    
+| 3.D          | [Monte Carlo simulation](3_D_Simulation.html)                                                   |     
 
 
 ### Logistic Regression

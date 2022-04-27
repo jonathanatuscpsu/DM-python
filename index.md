@@ -6,7 +6,7 @@ Contributors:
 
 - Zhaohu(Jonathan) Fan, PhD Candidate in Bubiness Analytics, psujohnny@gmail.com
 - [Harsh Singal](https://www.linkedin.com/in/harshsingal/),  M.S. in Bubiness Analytics (current position: Data Scientist - Product Analytics at Asurion)
-and many others
+- And Many More.
 
 ## Lecture and Lab Notes
 

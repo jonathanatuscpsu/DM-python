@@ -17,22 +17,20 @@ and many others
 
 ### Introduction to Data Mining and Python
 
-|       | Description | 
-|   :----:     |      :---   |      
-| 1.A      |  [ Introduction to Data Mining](1_A_Introduction_to_Data_Mining.html)      |   
-| 1.B     | [ Introduction to Python](1_B_Introduction_to_Python.html)        |     
-| 1.C   | [ Advanced techniques: function and loop](1_C_Advanced_techniques_function_and_loop.html)        |      
-| 1.D    | [Introduction to RMarkdown (optional)](1_D_Introduction_to_Markdown.html)       |  
-
-
+|              | Description                                                                                     | 
+|   :----:     |      :---                                                                                       |      
+| 1.A          |  [ Introduction to Data Mining](1_A_Introduction_to_Data_Mining.html)                           |   
+| 1.B          | [ Introduction to Python](1_B_Introduction_to_Python.html)                                      |     
+| 1.C          | [ Advanced techniques: function and loop](1_C_Advanced_techniques_function_and_loop.html)       |      
+| 1.D          | [Introduction to RMarkdown (optional)](1_D_Introduction_to_Markdown.html)                       |  
 
 
 ### Exploratory Data Analysis
 
-|       | Description | 
-|   :----:     |      :---   |      
-| 2.A      |  [Explore and describe dataset](2_A_Explore_and_describe_dataset.html)      |   
-| 2.B     | [B Exploratory data analysis by visualization](2_B_Exploratory_Data_Analysis_by_Visualization.html)      |     
+|              | Description                                                                                     | 
+|   :----:     |      :---                                                                                       |         
+| 2.A      |  [Explore and describe dataset](2_A_Explore_and_describe_dataset.html)                              |   
+| 2.B     | [B Exploratory data analysis by visualization](2_B_Exploratory_Data_Analysis_by_Visualization.html)  |     
 
                               
 ### Linear Regression, Prediction and Variables Seleciton

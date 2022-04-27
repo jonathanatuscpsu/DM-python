@@ -17,11 +17,14 @@ and many others
 
 ### Introduction to Data Mining and Python
 
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | [1.A Introduction to Data Mining](1_A_Introduction_to_Data_Mining.html)               | Here's this   |
+| Paragraph   | [1.B Introduction to Python](1_B_Introduction_to_Python.html)                        | And more      |
+| Paragraph   | [1.B Introduction to Python](1_B_Introduction_to_Python.html)                        | And more      |
+| Paragraph   |  [1.C Advanced techniques: function and loop](1_C_Advanced_techniques_function_and_loop.html)     | And more      |
+| Paragraph   |  [1.D Introduction to RMarkdown (optional)](1_D_Introduction_to_Markdown.html)      | And more      |
 
-| [1.A Introduction to Data Mining](1_A_Introduction_to_Data_Mining.html)                              |
-| [1.B Introduction to Python](1_B_Introduction_to_Python.html)                                        |                           
-| [1.C Advanced techniques: function and loop](1_C_Advanced_techniques_function_and_loop.html)         |
-| [1.D Introduction to RMarkdown (optional)](1_D_Introduction_to_Markdown.html)                        |
 
 
 ### Exploratory Data Analysis

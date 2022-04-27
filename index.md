@@ -5,7 +5,7 @@ This set of learning materials for undergraduate and graduate data mining class 
 
 Contributors:  
 
-- Zhaohu(Jonathan) Fan, PhD Candidate, fanzh@ucmail.uc.edu
+- Zhaohu(Jonathan) Fan, PhD Candidate, psujohnny@gmail.com
 - Xiaorui Zhu, PhD Candidate, zhuxiaorui1989@gmail.com
 - Dr. Feng Mai, Assistant Professor of Information Systems in the School of Business at Stevens Institute of Technology
 - Dr. Shaonan Tian, Associate Professor at San José State University 
@@ -17,12 +17,12 @@ and many others
 
 ### Introduction to Data Mining and Python
 
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| 1.A      | [ Introduction to Data Mining](1_A_Introduction_to_Data_Mining.html)               | Here's this   |
-| 1.B       | [ Introduction to Python](1_B_Introduction_to_Python.html)                        | And more      |
-| 1.C   |  [1.C Advanced techniques: function and loop](1_C_Advanced_techniques_function_and_loop.html)     | And more      |
-| 1.D   |  [1.D Introduction to RMarkdown (optional)](1_D_Introduction_to_Markdown.html)      | And more      |
+|      | Description | 
+| :--- :       |    :----   |      
+| 1.A      | [ Introduction to Data Mining](1_A_Introduction_to_Data_Mining.html)               | 
+| 1.B       | [ Introduction to Python](1_B_Introduction_to_Python.html)                        | 
+| 1.C   |  [1.C Advanced techniques: function and loop](1_C_Advanced_techniques_function_and_loop.html)     | 
+| 1.D   |  [1.D Introduction to RMarkdown (optional)](1_D_Introduction_to_Markdown.html)      | 
 
 
 

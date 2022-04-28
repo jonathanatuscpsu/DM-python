@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 github:
-  is_project_page: true
+  is_project_page: false
 description: ["By Zhaohu(Jonathan) Fan, Harsh Singal and Yan Yu. \n
 
              \"Life is short (You need Python). ---Bruce Eckel\""]

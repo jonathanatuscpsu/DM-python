@@ -88,8 +88,8 @@ Contributors:
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
 | 9.A         |                   [Neural network models](.html)                                                 |   
-| 9.B         |   Discriminant analysis (Optional)](html)                                                        |     
-| 9.C         |   Support vector machine (SVM) (Optional)](html)                                                 |     
+| 9.B         |   [Discriminant analysis (Optional)](html)                                                        |     
+| 9.C         |   [Support vector machine (SVM) (Optional)](html)                                                 |     
 
 
 

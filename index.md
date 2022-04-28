@@ -112,3 +112,8 @@ Contributors:
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
 | 12.A         |                   [Basic Text Mining](.html)                                                    |   
+
+
+Acknowledgments: I have drawn ideas or readings from the following syllabi:
+ - Ethan Swan, [Python for Data Science](https://github.com/uc-python)
+ - And Many More.

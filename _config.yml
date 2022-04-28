@@ -1,7 +1,4 @@
 theme: jekyll-theme-cayman
 github:
   is_project_page: false
-description: | By Zhaohu(Jonathan) Fan, Harsh Singal and Yan Yu. 
-
-              "Life is short (You need Python). ---Bruce Eckel"
-email: "psujohnny@gmail.com"
+  description: "By Zhaohu(Jonathan) Fan, Harsh Singal and Yan Yu. <br /> Life is short (You need Python). ---Bruce Eckel"

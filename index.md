@@ -35,7 +35,7 @@ Contributors:
 |   :----:     |      :---                                                                                       |         
 | 3.A          |                   [Linear regression and prediction](3_A_Linear_regression_and_prediction.html) |   
 | 3.B          | [Subset variable selection](3_B_Subset_Variable_Selection.html)                                                               |     
-| 3.C          | [LASSO variable selection](html)                                                                |    
+| 3.C          | [LASSO variable selection](3_C_LASSO_variable_selection.html)                                                                |    
 | 3.D          | [Monte Carlo simulation](3_D_Simulation.html)                                                   |     
 
 

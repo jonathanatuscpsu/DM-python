@@ -13093,7 +13093,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -13119,7 +13119,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn</span> <span class="kn">import</span> <span class="n">datasets</span>
@@ -13139,13 +13139,13 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[29]:</div>
+    <div class="prompt output_prompt">Out[46]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-bc76370a-5335-4881-a099-f1e45c445ea4">
+  <div id="df-2427d7f7-ca65-47f3-bac6-5a31fd0c5a0f">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -13270,7 +13270,7 @@ div#notebook {
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-bc76370a-5335-4881-a099-f1e45c445ea4')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-2427d7f7-ca65-47f3-bac6-5a31fd0c5a0f')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -13321,12 +13321,12 @@ div#notebook {
 
       <script>
         const buttonEl =
-          document.querySelector('#df-bc76370a-5335-4881-a099-f1e45c445ea4 button.colab-df-convert');
+          document.querySelector('#df-2427d7f7-ca65-47f3-bac6-5a31fd0c5a0f button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-bc76370a-5335-4881-a099-f1e45c445ea4');
+          const element = document.querySelector('#df-2427d7f7-ca65-47f3-bac6-5a31fd0c5a0f');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -13364,7 +13364,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
@@ -13380,7 +13380,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="c1">#for statmodels smf function (explained in Model Building section)</span>
@@ -13405,7 +13405,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># import Lasso regression from sklearn library</span>
@@ -13416,7 +13416,7 @@ div#notebook {
 
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The variable coefficients provided by the lasso are:&#39;</span><span class="p">)</span>
 <span class="n">coef</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">model_lasso</span><span class="o">.</span><span class="n">coef_</span><span class="p">,</span> <span class="n">index</span> <span class="o">=</span> <span class="n">X_train</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
-<span class="n">coef</span>
+<span class="nb">round</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13440,25 +13440,25 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[32]:</div>
+    <div class="prompt output_prompt">Out[49]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>crim      -0.071780
-zn         0.054131
-indus     -0.000000
-chas       0.000000
-nox       -0.000000
-rm         1.084373
-age        0.017433
-dis       -0.825820
-rad        0.267646
-tax       -0.014277
-ptratio   -0.631435
-b          0.009736
-lstat     -0.787961
+<pre>crim      -0.07
+zn         0.05
+indus     -0.00
+chas       0.00
+nox       -0.00
+rm         1.08
+age        0.02
+dis       -0.83
+rad        0.27
+tax       -0.01
+ptratio   -0.63
+b          0.01
+lstat     -0.79
 dtype: float64</pre>
 </div>
 
@@ -13470,14 +13470,14 @@ dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="c1">#alpha = 0.5</span>
 <span class="n">model_lasso</span> <span class="o">=</span> <span class="n">Lasso</span><span class="p">(</span><span class="n">alpha</span> <span class="o">=</span> <span class="mf">0.5</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">[</span><span class="s1">&#39;medv&#39;</span><span class="p">])</span>
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The variable coefficients provided by the lasso are:&#39;</span><span class="p">)</span>
 <span class="n">coef</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">model_lasso</span><span class="o">.</span><span class="n">coef_</span><span class="p">,</span> <span class="n">index</span> <span class="o">=</span> <span class="n">X_train</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
-<span class="n">coef</span>
+<span class="nb">round</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13501,25 +13501,25 @@ dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[33]:</div>
+    <div class="prompt output_prompt">Out[50]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>crim      -0.090925
-zn         0.054744
-indus     -0.000000
-chas       0.000000
-nox       -0.000000
-rm         2.576277
-age        0.001028
-dis       -1.086248
-rad        0.288204
-tax       -0.014626
-ptratio   -0.682407
-b          0.011329
-lstat     -0.687496
+<pre>crim      -0.09
+zn         0.05
+indus     -0.00
+chas       0.00
+nox       -0.00
+rm         2.58
+age        0.00
+dis       -1.09
+rad        0.29
+tax       -0.01
+ptratio   -0.68
+b          0.01
+lstat     -0.69
 dtype: float64</pre>
 </div>
 
@@ -13531,7 +13531,7 @@ dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="c1">#use 5-fold cross validation to pick lambda</span>
@@ -13563,7 +13563,7 @@ dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[35]:</div>
+    <div class="prompt output_prompt">Out[51]:</div>
 
 
 
@@ -13593,7 +13593,7 @@ dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;LassoCV picked &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">coef</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">))</span> <span class="o">+</span> <span class="s2">&quot; variables and eliminated the other &quot;</span> <span class="o">+</span>  <span class="nb">str</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">coef</span> <span class="o">==</span> <span class="mi">0</span><span class="p">))</span> <span class="o">+</span> <span class="s2">&quot; variables&quot;</span><span class="p">)</span>
@@ -13624,7 +13624,7 @@ dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[53]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The chosen alpha is: &quot;</span><span class="p">)</span>
@@ -13652,7 +13652,7 @@ dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[37]:</div>
+    <div class="prompt output_prompt">Out[53]:</div>
 
 
 
@@ -13669,7 +13669,7 @@ dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[54]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">mse_path</span> <span class="o">=</span> <span class="n">model_lassocv</span><span class="o">.</span><span class="n">mse_path_</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
@@ -13710,7 +13710,7 @@ dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[55]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Chosen model&#39;s R Squared: &quot;</span><span class="p">)</span>
@@ -13738,7 +13738,7 @@ dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[39]:</div>
+    <div class="prompt output_prompt">Out[55]:</div>
 
 
 
@@ -13755,7 +13755,7 @@ dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[56]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">test_pred</span> <span class="o">=</span> <span class="n">model_lassocv</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
@@ -13774,7 +13774,7 @@ dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[40]:</div>
+    <div class="prompt output_prompt">Out[56]:</div>
 
 
 
@@ -13791,14 +13791,46 @@ dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[58]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">shell</span>
-<span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span> <span class="o">///</span><span class="n">content</span><span class="o">/</span><span class="mi">3</span><span class="n">_A_Linear_regression_and_prediction</span><span class="o">.</span><span class="n">ipynb</span>
+<span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span> <span class="o">///</span><span class="n">content</span><span class="o">/</span><span class="mi">3</span><span class="n">_C_LASSO_variable_selection</span><span class="o">.</span><span class="n">ipynb</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[NbConvertApp] Converting notebook ///content/3_C_LASSO_variable_selection.ipynb to html
+[NbConvertApp] Writing 314676 bytes to ///content/3_C_LASSO_variable_selection.html
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[58]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre></pre>
+</div>
+
+</div>
+
 </div>
 </div>
 

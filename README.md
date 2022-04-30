@@ -7,7 +7,7 @@ This set of learning materials for undergraduate and graduate data mining class 
 Contributors:  
 - Zhaohu(Jonathan) Fan, PhD Candidate in Bubiness Analytics, psujohnny@gmail.com
 - [Harsh Singal](https://www.linkedin.com/in/harshsingal/),  M.S. in Bubiness Analytics (current position: Data Scientist - Product Analytics at Asurion)
-- And Many More.
+- And many more.
 
 ## Lecture and Lab Notes
 
@@ -34,7 +34,7 @@ Contributors:
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
 | 3.A          |                   [Linear regression and prediction](3_A_Linear_regression_and_prediction.html) |   
-| 3.B          | [Subset variable selection](html)                                                               |     
+| 3.B          | [Subset variable selection](3_B_Subset_Variable_Selection.html)                                                               |     
 | 3.C          | [LASSO variable selection](html)                                                                |    
 | 3.D          | [Monte Carlo simulation](3_D_Simulation.html)                                                   |     
 
@@ -114,6 +114,6 @@ Contributors:
 | 12.A         |                   [Basic Text Mining](.html)                                                    |   
 
 
-Acknowledgments: I have drawn ideas or readings from the following syllabi:
+Acknowledgments: I have drawn ideas or readings from the following texts:
  - Ethan Swan, [Python for Data Science](https://github.com/uc-python)
- - And Many More.
+ - And many more.

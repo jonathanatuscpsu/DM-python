@@ -5,7 +5,7 @@ This set of learning materials for undergraduate and graduate data mining class 
 
 
 Contributors:  
-- Zhaohu(Jonathan) Fan, PhD Candidate in Bubiness Analytics, fanzh@mail.uc.edu
+- Zhaohu(Jonathan) Fan, PhD Candidate in Bubiness Analytics, psujohnny@gmail.com
 - Harsh Singal,  M.S. in Bubiness Analytics (current position: Data Scientist - Product Analytics at Asurion)
 - And many more.
 
@@ -87,7 +87,7 @@ Contributors:
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 9.A         |                   [Neural network models](.html)                                                 |   
+| 9.A         |                   [Neural network models](9_A_Neural_Networks_Models.html)                                                 |   
 | 9.B         |   [Discriminant analysis (Optional)](html)                                                        |     
 | 9.C         |   [Support vector machine (SVM) (Optional)](html)                                                 |     
 

@@ -5,7 +5,7 @@ This set of learning materials for undergraduate and graduate data mining class 
 
 
 Contributors:  
-- Zhaohu(Jonathan) Fan, PhD Candidate in Bubiness Analytics, fanzh@mail.uc.edu
+- Zhaohu(Jonathan) Fan, PhD Candidate in Bubiness Analytics, psujohnny@gmail.com
 - Harsh Singal,  M.S. in Bubiness Analytics (current position: Data Scientist - Product Analytics at Asurion)
 - And many more.
 

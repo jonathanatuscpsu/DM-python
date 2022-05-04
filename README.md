@@ -61,7 +61,7 @@ Contributors:
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 6.A          |                   [Regression Trees](.html)                                                     |   
+| 6.A          |                   [Regression Trees](6_A_Regression_Trees.html)                                                     |   
 | 6.B          | [  Classification Trees](html)                                                                  |     
 
 

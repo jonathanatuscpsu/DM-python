@@ -113,7 +113,6 @@ Contributors:
 |   :----:     |      :---                                                                                       |         
 | 12.A         |                   [Basic Text Mining](.html)                                                    |   
 
-
 Acknowledgments: I have drawn ideas or readings from the following texts:
  - Ethan Swan, [Python for Data Science](https://github.com/uc-python)
  - And many more.

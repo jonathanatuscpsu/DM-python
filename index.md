@@ -72,7 +72,7 @@ Contributors:
 |   :----:     |      :---                                                                                       |         
 | 7.A         |                   [Bagging trees](7_A_Bagging_trees.html)                                                         |   
 | 7.B         | [Random forests](7_B_Advanced_Tree_Models_–_Random_Forests.html)                                                                           |     
-| 7.C      | [ Boosting trees](7C_Advanced_Tree_Models_%E2%80%93_Boosting_Tree.html)                                                                             |    
+| 7.C      | [ Boosting trees](7C_Advanced_Tree_Models_–_Boosting_Tree.html)                                                                             |    
  
 
 ### Nonlinearity, Generalized Additive Models (GAM), and Nonparametric Smoothing

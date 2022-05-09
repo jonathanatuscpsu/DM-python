@@ -70,7 +70,7 @@ Contributors:
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 7.A         |                   [Bagging trees](.html)                                                         |   
+| 7.A         |                   [Bagging trees](7_A_Bagging_trees.html)                                                         |   
 | 7.B         | [Random forests](html)                                                                           |     
 | 7.C      | [ Boosting trees](html)                                                                             |    
  

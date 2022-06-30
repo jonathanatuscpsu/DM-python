@@ -1,6 +1,6 @@
 
 
-# Data Mining in Python-2
+# Data Mining in Python-3
 This set of learning materials for undergraduate and graduate data mining class is currently maintained by Zhaohu(Jonathan) Fan.  Many materials are from [Dr. Yan Yu’s class notes](https://business.uc.edu/faculty-and-research/departments/obais/faculty/yan-yu.html). Thanks for the contribution from previous Ph.D. students in Lindner College of Business.
 
 

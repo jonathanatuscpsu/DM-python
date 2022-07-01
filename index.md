@@ -109,7 +109,7 @@ This set of learning materials for undergraduate and graduate data mining class 
 
 Contributors:  
 - Zhaohu(Jonathan) Fan, PhD Candidate in Business Analytics, psujohnny@gmail.com
-- Harsh Singal,  M.S. in Bubiness Analytics (current position: Data Scientist - Product Analytics at Asurion)
+- Harsh Singal,  M.S. in Bubiness Analytics (current position: Data Scientist - Product Analytics at Asurion).
 - Xiaorui Zhu, Ph.D. (2022) Tenure Track Assistant Professor in Business Analytics at Towson University.
 - And many more. 
 

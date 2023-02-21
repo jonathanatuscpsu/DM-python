@@ -114,10 +114,10 @@ Contributors:
 - Zhaohu(Jonathan) Fan, PhD Candidate in Business Analytics, psujohnny@gmail.com
 - Harsh Singal,  M.S. in Bubiness Analytics (current position: Data Scientist - Product Analytics at Asurion).
 - Saidat Sanni,  PhD Candidate in Business Analytics.
-- Xiaorui Zhu, Ph.D. (2022) Tenure Track Assistant Professor in Business Analytics at Towson University.
 
 
- <!---- And many more.  --->
+
+ <!---- And many more.  - Xiaorui Zhu, Ph.D. (2022) Tenure Track Assistant Professor in Business Analytics at Towson University. --->
  
 Acknowledgments: I have drawn ideas or readings from the following texts:
  - Bradley Boehmke, [UC BANA 6043 Statistical Computing](https://github.com/bradleyboehmke/uc-bana-6043)

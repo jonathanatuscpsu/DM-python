@@ -88,7 +88,7 @@ Contributors:
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
 | 9.A         |                   [Neural network models](9_A_Neural_Networks_Models.html)                                                 |   
-| 9.B         |                   [Neural network models](9_B_Neural_Networks_Models.html)                                                 |   
+| 9.B         |                   [Neural network models (Handwritten Digits Case)](9_B_Neural_Networks_Models.html)                                                 | 
 | 9.C      |   [Discriminant analysis (Optional)](html)                                                        |     
 | 9.D         |   [Support vector machine (SVM) (Optional)](html)                                                 |     
 

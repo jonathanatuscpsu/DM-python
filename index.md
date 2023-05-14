@@ -114,6 +114,7 @@ This set of online learning materials for undergraduate and graduate data mining
 Contributors:  
 - Zhaohu(Jonathan) Fan, PhD Candidate in Business Analytics, psujohnny@gmail.com.
 - Harsh Singal,  M.S. in Bubiness Analytics (current position: Data Scientist - Product Analytics at Asurion).
+- Zewei Lin,  PhD Candidate in Business Analytics.
 - Saidat Sanni,  PhD Candidate in Business Analytics.
 - Anni Peng,  M.S. in Bubiness Analytics.
 

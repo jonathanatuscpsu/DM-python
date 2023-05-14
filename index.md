@@ -116,7 +116,6 @@ Contributors:
 - Harsh Singal,  M.S. in Bubiness Analytics (current position: Data Scientist - Product Analytics at Asurion).
 - Zewei Lin,  PhD Candidate in Business Analytics.
 - Jiantong Wang,  PhD Candidate in Business Analytics.
-- Jiantong Wang,  PhD Candidate in Business Analytics.
 - Saidat Sanni,  PhD Candidate in Business Analytics.
 - Jiawei Huang, PhD Candidate in Business Analytics.
 - Anni Peng,  M.S. in Bubiness Analytics.

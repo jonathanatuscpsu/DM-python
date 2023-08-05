@@ -1,5 +1,5 @@
 # Data Mining in Python
-This set of online learning materials for undergraduate and graduate data mining classes was first developed and is currently being maintained by Zhaohu (Jonathan) Fan.  Some of materials are from [Dr. Yan Yu](https://business.uc.edu/faculty-and-research/departments/obais/faculty/yan-yu.html)’s class notes. 
+This set of online learning materials for undergraduate and graduate data mining classes was first developed and is currently being maintained by Zhaohu (Jonathan) Fan.  Some of the materials are from [Dr. Yan Yu](https://business.uc.edu/faculty-and-research/departments/obais/faculty/yan-yu.html)’s class notes. 
 
  <!---Thanks for the contribution from previous Ph.D. students. --->
 
@@ -112,13 +112,12 @@ This set of online learning materials for undergraduate and graduate data mining
 
 
 Contributors:  
-- Zhaohu(Jonathan) Fan, PhD Candidate in Business Analytics, psujohnny@gmail.com.
-- Harsh Singal,  M.S. in Bubiness Analytics (current position: Data Scientist - Product Analytics at Asurion).
-- Saidat Sanni,  PhD Candidate in Business Analytics.
-- Zewei Lin,  PhD Candidate in Business Analytics.
-- Jiantong Wang,  PhD Candidate in Business Analytics.
-- Jiawei Huang, PhD Candidate in Business Analytics.
-- Anni Peng,  M.S. in Bubiness Analytics.
+- Zhaohu(Jonathan) Fan, Ph.D. in Business Analytics, psujohnny@gmail.com.
+- Harsh Singal,  M.S. in Business Analytics (current position: Data Scientist - Product Analytics at Asurion).
+- Jiantong Wang,  Ph.D. Candidate in Business Analytics.
+- Saidat Sanni,  Ph.D. Candidate in Business Analytics.
+- Zewei Lin,  Ph.D. Candidate in Business Analytics.
+- Jiawei Huang, Ph.D. Candidate in Business Analytics.
 
 
 

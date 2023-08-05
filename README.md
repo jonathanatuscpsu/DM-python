@@ -1,14 +1,13 @@
 
 
 # Data Mining in Python
-This set of online learning materials for undergraduate and graduate data mining class is currently maintained by Zhaohu (Jonathan) Fan. Some of materials are from [Dr. Yan Yu’s class notes](https://business.uc.edu/faculty-and-research/departments/obais/faculty/yan-yu.html). Thanks for the contribution from previous Ph.D. students at Lindner College of Business.
+This set of online learning materials for undergraduate and graduate data mining class is currently maintained by Zhaohu (Jonathan) Fan. Some of the materials are from [Dr. Yan Yu’s class notes](https://business.uc.edu/faculty-and-research/departments/obais/faculty/yan-yu.html). Thanks for the contribution from previous Ph.D. students at Lindner College of Business.
 
 
 Contributors:  
-- Zhaohu(Jonathan) Fan, PhD Candidate in Bubiness Analytics, psujohnny@gmail.com
-- Harsh Singal,  M.S. in Bubiness Analytics (current position: Data Scientist - Product Analytics at Asurion)
+- Zhaohu(Jonathan) Fan, PhD in Business Analytics, psujohnny@gmail.com
+- Harsh Singal,  M.S. in Business Analytics (current position: Data Scientist - Product Analytics at Asurion)
 - Saidat Sanni,  PhD Candidate in Business Analytics.
-- Anni Peng,  M.S. in Bubiness Analytics.
 
 ## Lecture and Lab Notes
 

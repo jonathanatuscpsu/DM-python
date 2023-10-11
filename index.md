@@ -124,7 +124,7 @@ Contributors:
 
 
 
- <!---- And many more.  - Xiaorui Zhu, Ph.D. (2022) Tenure Track Assistant Professor in Business Analytics at Towson University. --->
+ <!---- And many more.  - https://github.com/yanyudm?tab=stars; https://yanyudm.github.io/Data-Mining-R/ --->
  
 Acknowledgments: I have drawn ideas or readings from the following texts:
  - Bradley Boehmke, [UC BANA 6043 Statistical Computing](https://github.com/bradleyboehmke/uc-bana-6043)

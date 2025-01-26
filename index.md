@@ -68,7 +68,7 @@ This set of online learning materials for undergraduate and graduate data mining
 |   :----:     |      :---                                                                                       |         
 | 7.A         |                   [Bagging trees](7_A_Bagging_trees.html)                                                         |   
 | 7.B         | [Random forests](7_B_Advanced_Tree_Models_–_Random_Forests.html)                                                                           |     
-| 7.C      | [ Boosting trees](7C_Advanced_Tree_Models_–_Boosting_Tree.html)                                                                             |    
+| 7.C      | [ Boosting trees](7_C_Advanced_Tree_Models_–_Boosting_Tree.html)                                                                             |    
  
 
 ### Nonlinearity, Generalized Additive Models (GAM), and Nonparametric Smoothing

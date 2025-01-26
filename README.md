@@ -7,7 +7,6 @@ This set of online learning materials for undergraduate and graduate data mining
 Contributors:  
 - Zhaohu(Jonathan) Fan, PhD in Business Analytics, psujohnny@gmail.com
 - Harsh Singal,  M.S. in Business Analytics (current position: Data Scientist - Product Analytics at Asurion)
-- Saidat Sanni,  PhD Candidate in Business Analytics.
 
 ## Lecture and Lab Notes
 

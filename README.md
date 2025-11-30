@@ -1,7 +1,7 @@
 
 
 # Data Mining in Python
-This set of online learning materials for undergraduate and graduate data mining class is currently maintained by Zhaohu (Jonathan) Fan. Some of the materials are from [Dr. Yan Yu’s class notes](https://business.uc.edu/faculty-research/obais/faculty/yan-yu.html). 
+This set of online learning materials for undergraduate and graduate data mining class is currently maintained by Zhaohu (Jonathan) Fan. Some of the materials are from [Dr. Yan Yu’s class notes]([https://business.uc.edu/faculty-research/obais/faculty/yan-yu.html](https://www.business.uc.edu/faculty-research/obais/faculty/yan-yu.html)). 
 
 
 Contributors:  

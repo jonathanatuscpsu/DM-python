@@ -1,5 +1,8 @@
 title: "Data Mining in Python"
-theme: jekyll-theme-cayman
-description: "By Zhaohu (Jonathan) Fan and Yan Yu. <br /> ''Life is short (You need Python).'' ---Bruce Eckel"
+theme: jekyll-theme-minimal
+
+description: >
+  Teaching materials for data mining and business analytics courses.
+show_downloads: false
 github:
   is_project_page: false

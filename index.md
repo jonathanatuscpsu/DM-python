@@ -1,6 +1,6 @@
 # Data Mining in Python  
 
-This repository hosts online learning materials for undergraduate and graduate **Data Mining / Business Analytics** courses taught by **Zhaohu (Jonathan) Fan**.
+This repository hosts online learning materials for undergraduate and graduate **Data Mining / Business Analytics** courses taught by **[Zhaohu (Jonathan) Fan](https://www.scheller.gatech.edu/directory/faculty/fan/index.html)**.
 
 The notes are written in Python and are designed to support:
 

@@ -1,7 +1,29 @@
-# Data Mining in Python
-This set of online learning materials for undergraduate and graduate data mining classes was first developed and is currently being maintained by Zhaohu (Jonathan) Fan.  Some of the materials are from [Dr. Yan Yu](https://www.business.uc.edu/faculty-research/obais/faculty/yan-yu.html)’s class notes. 
+# Data Mining in Python  
 
+This repository hosts online learning materials for undergraduate and graduate **Data Mining / Business Analytics** courses taught by **Zhaohu (Jonathan) Fan**.
 
+The notes are written in Python and are designed to support:
+
+- Business analytics and data science learners  
+- Students in data mining, machine learning, and predictive analytics courses  
+- Practitioners looking for applied, example-driven materials
+
+Some materials adapt and extend class notes from [Dr. Yan Yu](https://www.business.uc.edu/faculty-research/obais/faculty/yan-yu.html), with permission and acknowledgment.
+
+---
+
+## How to Use These Materials
+
+- Each topic is organized as a **short module** (A, B, C, …) with an HTML notebook.
+- You can:
+  - Read the HTML notebooks directly in your browser.
+  - Use them as a **flipped-classroom** resource, lab companion, or self-study guide.
+- The sequence roughly follows a standard **data mining / predictive analytics** workflow:
+  1. Introduction & Python basics  
+  2. Exploratory data analysis  
+  3. Supervised learning (regression, classification, trees, etc.)  
+  4. Model assessment & validation  
+  5. Unsupervised learning and text mining  
 
 
 ## Lecture and Lab Notes

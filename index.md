@@ -132,7 +132,7 @@ Some materials adapt and extend class notes from [Dr. Yan Yu](https://www.busine
 | 12.A         |                   [Basic Text Mining](.html)                                                    |   
 
 
-**Contributors: ** 
+**Contributors:** 
 - Zhaohu(Jonathan) Fan, Ph.D. in Business Analytics, psujohnny@gmail.com.
 - Amin Aminimehr, Ph.D. student in Business Analytics.
 - Harsh Singal,  M.S. in Business Analytics (current position: Data Scientist - Product Analytics at Asurion).

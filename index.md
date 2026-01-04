@@ -63,7 +63,7 @@ Some materials adapt and extend class notes from [Dr. Yan Yu](https://www.busine
 | 4.A          |         [Logistic regression and prediction](4_A_Logistic_regression_and_prediction.html)                                             |   
 | 4.B          | [Logistic regression and variable selection](4_B_Logistic_regression_and_prediction.html)                                              |     
 | 4.C          | [ Logistic Regression for binary classification](4_C_Logistic_regression_and_prediction.html)                                          |    
-| 4.D          | [ Logistic regression and ROC](html)                                                            |     
+| 4.D          | [ Logistic regression and ROC](4_D_Logistic_regression_and_prediction.html)                                                            |     
 
 ### Cross Validation
 

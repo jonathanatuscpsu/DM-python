@@ -79,7 +79,7 @@ Some materials adapt and extend class notes from [Dr. Yan Yu](https://www.busine
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
 | 6.A          |                   [Regression Trees](6_A_Regression_Trees.html)                                                     |   
-| 6.B          | [  Classification Trees](html)                                                                  |     
+| 6.B          | [  Classification Trees](6_B_Classification_Trees.html)                                                                  |     
 
 
 ### Advanced Tree Models: Bagging, Random Forests, and Boosting Tree

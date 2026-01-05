@@ -75,7 +75,6 @@ Some materials adapt and extend class notes from [Dr. Yan Yu](https://www.busine
 
 ### Tree Models
 
-
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
 | 6.A          |                   [Regression Trees](6_A_Regression_Trees.html)                                                     |   

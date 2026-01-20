@@ -70,7 +70,7 @@ Some materials adapt and extend class notes from [Dr. Yan Yu](https://www.busine
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
 | 5.A          |  [Cross validation](5_A_Cross_Validation.html)                                                     |   
-| 5.B          | [ Cross validation (Logit model)](html)                                                         |     
+| 5.B          | [ Cross validation (Logit model)](5_B_Cross_Validation.html)                                                         |     
 
 
 ### Tree Models

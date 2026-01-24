@@ -87,7 +87,7 @@ Some materials adapt and extend class notes from [Dr. Yan Yu](https://www.busine
 |   :----:     |      :---                                                                                       |         
 | 7.A         |                   [Bagging trees](7_A_Bagging_trees.html)                                                         |   
 | 7.B         | [Random forests](7B_Advanced_Tree_Models_Random_Forests.html)                                                                           |     
-| 7.C      | [ Boosting trees](7_C_Advanced_Tree_Models_–_Boosting_Tree.html)                                                                             |    
+| 7.C      | [ Boosting trees](7C_Advanced_Tree_Models_Boosting_Trees.html)                                                                             |    
  
 
 ### Nonlinearity, Generalized Additive Models (GAM), and Nonparametric Smoothing

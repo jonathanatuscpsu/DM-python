@@ -83,11 +83,10 @@ Some materials adapt and extend class notes from [Dr. Yan Yu](https://www.busine
 
 ### Advanced Tree Models: Bagging, Random Forests, and Boosting Tree
 
-
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
 | 7.A         |                   [Bagging trees](7_A_Bagging_trees.html)                                                         |   
-| 7.B         | [Random forests](7_B_Advanced_Tree_Models_–_Random_Forests.html)                                                                           |     
+| 7.B         | [Random forests](7B_Advanced_Tree_Models_Random_Forests.html)                                                                           |     
 | 7.C      | [ Boosting trees](7_C_Advanced_Tree_Models_–_Boosting_Tree.html)                                                                             |    
  
 

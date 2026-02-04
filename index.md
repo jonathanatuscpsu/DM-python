@@ -113,7 +113,7 @@ Some materials adapt and extend class notes from [Dr. Yan Yu](https://www.busine
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 10.A         |                   [Clustering](.html)                                                           |   
+| 10.A         |                   [Clustering](10_Clustering.html)                                                           |   
 
 ### Unsupervised Learning: Association Rules
 

@@ -95,7 +95,7 @@ Some materials adapt and extend class notes from [Dr. Yan Yu](https://www.busine
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
 | 8.A         |                   [ Univariate Nonparametric Smoothing](8_A_Univariate_Nonparametric_Smoothing.html)                                   |   
-| 8.B         | [Generalized additive model (GAM)](html)                                                         |     
+| 8.B         | [Generalized additive model (GAM)](8_B_Generalized_Additive_Model.html)                                                         |     
 
 
 ### Neural Network, LDA, and SVM

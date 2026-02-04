@@ -25,7 +25,6 @@ Some materials adapt and extend class notes from [Dr. Yan Yu](https://www.busine
   4. Model assessment & validation  
   5. Unsupervised learning and text mining  
 
-
 ## Lecture and Lab Notes
 
 ### Introduction to Data Mining and Python

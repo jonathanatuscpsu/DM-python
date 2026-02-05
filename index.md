@@ -102,7 +102,7 @@ Some materials adapt and extend class notes from [Dr. Yan Yu](https://www.busine
 |   :----:     |      :---                                                                                       |         
 | 9.A         |                   [Neural network models](9_A_Neural_Networks_Models.html)                                                 |   
 | 9.B         |                   [Discriminant analysis (Optional)](9_B_Discriminant_analysis.html)                                                 |  
-| 9.C         |                         [Support vector machine (SVM) (Optional)](html)                                   |     
+| 9.C         |                         [Support vector machine (SVM) (Optional)](9_C_Support_vector_machine.html)                                   |     
 
 
 ### Unsupervised Learning: Clustering
@@ -110,20 +110,20 @@ Some materials adapt and extend class notes from [Dr. Yan Yu](https://www.busine
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 10.A         |                   [Clustering](10_Clustering.html)                                                           |   
+| 10.         |                   [Clustering](10_Clustering.html)                                                           |   
 
 ### Unsupervised Learning: Association Rules
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 11.A         |                   [Association Rules](11_Association_Rules.html)                                                    |   
+| 11.        |                   [Association Rules](11_Association_Rules.html)                                                    |   
 
 ### Other Topics 1: Basic Text Mining
 
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 12.A         |                   [Basic Text Mining](.html)                                                    |   
+| 12.        |                   [Basic Text Mining](.html)                                                    |   
 
 
 **Contributors:** 

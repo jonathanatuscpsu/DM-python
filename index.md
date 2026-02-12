@@ -133,6 +133,17 @@ Some materials adapt and extend class notes from [Dr. Yan Yu](https://www.busine
 
 
 
+ <!----DM-python/├─ _config.yml
+├─ index.md            (or index.html)
+├─ README.md           (optional)
+├─ _includes/
+│  └─ head-custom.html
+└─ assets/
+   ├─ css/
+   │  └─ style.scss
+   └─ js/
+      └─ color-mode.js --->
+
 
  <!---- And many more.  - https://github.com/yanyudm?tab=stars; https://yanyudm.github.io/Data-Mining-R/ --->
 <!---- Acknowledgments: I have drawn ideas or readings from the following texts:--->

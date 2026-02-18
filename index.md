@@ -119,12 +119,6 @@ Some materials adapt and extend class notes from [Dr. Yan Yu](https://www.busine
 
  <!----### Other Topic(s): Basic Text Mining --->
 
-
- <!----|              | Description                                                                                     |  --->
- <!----|   :----:     |      :---                                                                                       |     --->     
- <!----| 12.        |                   [Basic Text Mining](.html)                                                    |    --->
-
-
 **Contributors:** 
 - Zhaohu(Jonathan) Fan, Ph.D. in Business Analytics, psujohnny@gmail.com.
 - Amin Aminimehr, Ph.D. student in Business Analytics.

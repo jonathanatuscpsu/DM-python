@@ -12,7 +12,7 @@ github:
   is_project_page: false
 
 color_mode:
-  default: auto   # auto | light | dark
+  default: light   # light | dark
   toggle: true
 
 sass:

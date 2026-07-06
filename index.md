@@ -122,7 +122,7 @@ Some materials adapt and extend class notes from [Dr. Yan Yu](https://www.busine
 
 |              | Description                                                                                     | 
 |   :----:     |      :---                                                                                       |         
-| 12.A         |                   [Basic Text Mining](.html)                                                    |   
+| 12.A         |                   [Basic Text Mining](12_Basic_Text_Mining.html)                                                    
 
  <!----### Other Topic(s): Basic Text Mining --->
 

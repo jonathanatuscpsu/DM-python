@@ -117,6 +117,13 @@ Some materials adapt and extend class notes from [Dr. Yan Yu](https://www.busine
 |   :----:     |      :---                                                                                       |         
 | 11.        |                   [Association Rules](11_Association_Rules.html)                                                    |   
 
+### Other Topics 1: Basic Text Mining
+
+
+|              | Description                                                                                     | 
+|   :----:     |      :---                                                                                       |         
+| 12.A         |                   [Basic Text Mining](.html)                                                    |   
+
  <!----### Other Topic(s): Basic Text Mining --->
 
 **Contributors:** 
